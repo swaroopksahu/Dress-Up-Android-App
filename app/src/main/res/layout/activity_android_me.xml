@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AndroidMeActivity">
+
+    <LinearLayout
+        android:id="@+id/android_me_linear_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:id="@+id/head_container"
+            android:layout_width="match_parent"
+            android:scaleType="centerInside"
+            android:layout_height="180sp"/>
+
+        <FrameLayout
+            android:id="@+id/body_container"
+            android:layout_width="match_parent"
+            android:scaleType="centerInside"
+            android:layout_height="180sp"/>
+
+        <FrameLayout
+            android:id="@+id/leg_container"
+            android:layout_width="match_parent"
+            android:scaleType="centerInside"
+            android:layout_height="180sp"/>
+    </LinearLayout>
+
+</ScrollView>
